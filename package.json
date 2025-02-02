@@ -1,0 +1,27 @@
+{
+  "name": "cookify-app",
+  "version": "1.0.0",
+  "description": "Recipe list application",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://dev-kiddo.github.io/Cookify-app/"
+  },
+  "keywords": [
+    "cookify"
+  ],
+  "author": "\"Prasanth S\"",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.13.3",
+    "parcel": "^2.13.3"
+  },
+  "dependencies": {
+    "core-js": "^3.40.0",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.14.1"
+  }
+}
